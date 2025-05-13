@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laker Drip</title>
+</head>
+<style>
+
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: coral;
+    color: cornflowerblue;
+}
+header{
+    background-color: blue;
+    color: orange;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 5px;
+}
+nav{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #000;
+
+}
+
+footer {
+    background-color: blue;
+    text-align: center;
+    padding: 2em;
+    margin-top: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+.products {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 2em;
+padding: 2em;
+}
+
+.product-card {
+background: blue;
+width: 220px;
+border-radius: 8px;
+box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+overflow: hidden;
+transition: transform 0.2s ease;
+}
+
+.product-card:hover {
+transform: scale(1.03);
+}
+
+.product-card img {
+width: 100%;
+height: auto;
+}
+
+.product-info {
+padding: 1em;
+text-align: center;
+}
+
+.product-info h3 {
+margin: 0.5em 0;
+}
+
+.product-info p {
+font-weight: bold;
+color: black;
+}
+
+
+</style>
+<body>
+   <header> 
+   <h1>Laker Drip</h1> 
+   </header> 
+
+   <nav>
+    <a href="#">Home</a>
+    <a href="#">Men</a>
+    <a href="#">Women</a>
+    <a href="#">New Arrivals</a>
+    <input type="text" placeholder="What are you looking for?">    
+    <button type="button">Search</button>
+   </nav>
+
+   <section class="products">
+    <div class="product-card">
+    <img src="img\jeans.jpg" alt="T-Shirt">
+    <div class="product-info">
+    <h3>Laker T-Shirt</h3>
+    <p>$18.99</p>
+    </div>
+    </div>
+    
+    <div class="product-card">
+    <img src="img\jeans.jpg" alt="T-Shirt">
+    <div class="product-info">
+    <h3>Laker Jeans</h3>
+    <p>$45.00</p>
+    </div>
+    </div>
+    
+    <div class="product-card">
+    <img src="img\jeans.jpg" alt="T-Shirt">
+    <div class="product-info">
+    <h3>Laker Jacket</h3>
+    <p>$120.00</p>
+    </div>
+    </div>
+    
+    <div class="product-card">
+    <img src="img\jeans.jpg" alt="T-Shirt">
+    <div class="product-info">
+    <h3>Laker Summer Dress</h3>
+    <p>$39.99</p>
+    </div>
+    </div>
+    
+    <div class="product-card">
+    <img src="img\jeans.jpg" alt="T-Shirt">
+    <div class="product-info">
+    <h3>Running Sneakers</h3>
+    <p>$59.99</p>
+    </div>
+    </div>
+
+    <div class="product-card">
+        <img src="img\jeans.jpg" alt="T-Shirt">
+        <div class="product-info">
+        <h3>Bookbags</h3>
+        <p>$59.99</p>
+        </div>
+
+    </div>
+    </section>
+    <footer>
+        <a href="Service">Customer Service</a>
+        <a href="Account">Account</a>
+        
+    </footer>
+
+</body>
+</html>
